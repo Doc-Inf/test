@@ -2,3 +2,10 @@ header{
     text-align:center;
     margin:2rem 0rem;
 }
+body{
+    height:2000px;
+}
+
+border{
+    border:1px solid black;
+}
