@@ -2,3 +2,18 @@ header{
     text-align:center;
     margin:2rem 0rem;
 }
+
+.riga{
+    background-color: red;
+    
+}
+
+.colonna{
+    background-color: green;    
+    box-sizing:border-box; 
+}
+
+.colonna img{
+    max-width: 100%;
+}
+
