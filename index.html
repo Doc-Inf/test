@@ -18,7 +18,84 @@
     <header>
       <h1>Hello, world!</h1>
     </header>
-    
+    <div class="container">
+      <form action="index.html" method="POST">
+        <fieldset>
+          <div class="row mb-5">
+            <div class="col">
+              <legend>Informazioni anagrafiche</legend>   
+            </div>                
+          </div>   
+          <div class="row mb-5">
+            <div class="col-12 col-md-3 col-xl-2">
+              <label for="nome" class="form-label">Nome: </label>              
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+              <input id="nome" type="text" class="form-control">
+            </div>
+          </div>       
+          <div class="row mb-5">
+            <div class="col-12 col-md-3 col-xl-2">
+              <label for="cognome" class="form-label">Cognome: </label>              
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+              <input id="cognome" type="text" class="form-control">
+            </div>
+          </div>         
+          <div class="row mb-5">
+            <div class="col-12 col-md-3 col-xl-2">
+              <label for="email" class="form-label">Email: </label>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+              <input id="email" type="email" class="form-control">
+            </div>
+          </div>
+          <div class="row mb-5">
+            <div class="col-12 col-md-3 col-xl-2">
+              <label for="dataNascita" class="form-label">Data di nascita: </label>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+              <input id="date" type="date" class="form-control">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12 col-md-2 col-xl-1">
+              <label for="sesso" class="form-label">Sesso: </label>
+            </div>            
+          </div>  
+          <div class="row justify-content-start">
+            <div class="col-1 ms-0 me-4">
+              <label for="uomo" class="form-label">M</label>              
+            </div>
+            <div class="col-1">
+              <input class="form-check-input" type="radio" name="sesso" class="form-control" value="M" checked>                            
+            </div>
+          </div>  
+          <div class="row justify-content-start mb-5">
+              <div class="col-1 ms-0 me-4">
+                <label for="donna" class="form-label">F</label>                
+              </div>
+              <div class="col-1">
+                <input class="form-check-input" type="radio" name="sesso" class="form-control" value="F">              
+              </div>
+          </div>  
+          <div class="row mb-5">
+            <div class="col-12 col-sm-3 col-lg-2">
+              <label class="form-label" for="titoloStudio">Titolo di studio: </label>
+            </div>
+            <div class="col-12 col-sm-2">
+              <select class="form-select" name="titoloStudio" id="titoloStudio">
+                <option value="LicenzaMedia">Licenzia Media</option>
+                <option value="Diploma">Diploma</option>
+                <option value="Laurea">Laurea</option>                
+              </select>
+            </div>
+          </div>     
+        </fieldset>
+        <button type="submit" class="btn btn-primary">Registrati</button>  
+          
+      </form>
+    </div>
     
     
     <script src="js/bootstrap.bundle.min.js"></script>

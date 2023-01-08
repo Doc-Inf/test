@@ -2,3 +2,6 @@ header{
     text-align:center;
     margin:2rem 0rem;
 }
+border{
+    border:1px solid black;
+}
