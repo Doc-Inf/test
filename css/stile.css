@@ -2,3 +2,8 @@ header{
     text-align:center;
     margin:2rem 0rem;
 }
+
+div.galleria img{
+    width:400px;
+}
+
